@@ -1,0 +1,305 @@
+module.exports = {
+  common: {
+    an_error_occurred: 'An error occurred',
+    page_not_found: 'Page not found',
+    please_define_title: 'Please define a title in the front matter',
+    please_define_description:
+      'Please define a description in the front matter',
+    search: 'Search ("/" to focus)',
+    version: 'Version'
+  },
+  iso: 'vi',
+
+  links: {
+    download: 'Download',
+    live_edit: 'Live Edit'
+  },
+  header: {
+    links: [
+      {
+        name: 'FAQ',
+        slug: 'faq',
+        type: 'dynamic',
+        routeName: 'section-slug'
+      },
+      {
+        name: 'Blog',
+        slug: 'blog',
+        type: 'static'
+      }
+    ],
+    search: {
+      placeholder: 'Search ("/" to focus)'
+    }
+  },
+  homepage: {
+    meta: {
+      title: 'Nuxt.js - The Intuitive Vue Framework',
+      description:
+        'Build your next Vue.js application with confidence using Nigo. An open source framework making web development simple and powerful.'
+    },
+    welcome: {
+      title: '{frameworkType} - Từ điển tiếng nhật',
+      description:
+        'Mẹo:{br} Nhập N+[từ khóa] để tra theo ngữ pháp.{br}Nhập N1,N2,N3,N4,N5 để tra ngữ pháp theo cấp độ N.{br}Nhập K để tra chữ hán (kanji) {br}Nhập S để tra câu ví dụ, bao gồm phân tích câu.{br}Nhập W để tra từ vựng{br} (Không phân biệt hoa thường)        ',
+      openSource: 'open source',
+      get_started: 'get started',
+      get_updates: 'Get Nigo updates to your inbox each month',
+      video: 'Video produced by {company}, download their free {cheatSheet}',
+      cheatSheet: 'Nuxt Cheat Sheet.'
+    },
+    why: {
+      title: 'Why {nuxt}',
+      try_nuxtjs_online: 'Try Nigo Online',
+      enjoyable: {
+        title: 'Enjoyable',
+        description:
+          'Our main focus is the Developer Experience. We love Nuxt.js and continuously improve the framework so you love it too! {break} Expect appealing solutions, descriptive error messages, powerful defaults and detailed documentation. If questions or problems come up, our helpful community will help you out.'
+      },
+      modular: {
+        title: 'Modular',
+        description:
+          "Nuxt is based on a powerful modular architecture. You can choose from more than 50 modules to make your development faster and easier. You don't have to reinvent the wheel to get PWA benefits, add Google Analytics to your page or generate a sitemap."
+      },
+      performant: {
+        title: 'Performant',
+        description:
+          'With Nuxt.js, your application will be optimized out of the box. We do our best to build performant applications by utilizing Vue.js and Node.js best practices. To squeeze every unnecessary bit out of your app Nuxt includes a bundle analyzer and lots of opportunities to fine-tune your app.'
+      }
+    },
+    companies: {
+      title: "Who's using {nuxt}"
+    },
+    modes: {
+      title: '{nuxt} rendering',
+      ssr: {
+        title: 'Server Side Rendered',
+        description:
+          'The most popular mode for Nuxt. With SSR, also called "universal" or "isomorphic" mode, a Node.js server will be used to deliver HTML based on your Vue components to the client instead of the pure javascript. Using SSR will lead to a large SEO boost, better UX and more opportunities (compared to a traditional Vue SPA).{break}Because implementing SSR on your own can be really tedious, Nuxt.js gives you full support out of the box and will take care of common pitfalls.'
+      },
+      spa: {
+        title: 'Single Page Application (SPA)',
+        description:
+          "Don't need SSR or Static Site Generation but still want to profit from the benefits that Nuxt provides? Are you slowly transitioning your app and want to start lightweight? Then the traditional SPA mode will likely be your choice. The outcome will be a typical Vue SPA as you know it but influenced by your Nuxt configuration and the framework itself."
+      },
+      ssg: {
+        title: 'Statically Generated',
+        description:
+          'Static Site Generation is a very hot topic right now (aka JAMStack). Instead of switching to another framework and spending time to get used to it, why not kill two birds with one stone? {proverbial} Nuxt.js supports generating a static website based on your Vue application. It is the "best of both worlds" as you don\'t need a server but still have SEO benefits because Nuxt will pre-render all pages and include the necessary HTML. Also, you can deploy the resulting page easily to Netlify or GitHub pages.',
+        proverbial: 'only proverbial'
+      }
+    },
+    sponsors: {
+      title: 'Sponsors',
+      description:
+        'Nigo is an MIT licensed open source project and completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. If you run a business and are using Nuxt in a revenue-generating product, it makes business sense to sponsor Nuxt development: it ensures the project that your product relies on stays healthy and actively maintained. It can also help your exposure in the Vue/Nuxt community and makes it easier to attract Vue/Nuxt developers. If you are an individual user and have enjoyed the productivity of using Nuxt, consider donating as a sign of appreciation.',
+      become_a_sponsor: 'Become a sponsor'
+    },
+    newsletter: {
+      title: '{nuxt} Newsletter',
+      description:
+        'Get the latest Nuxt news to your inbox, curated by the Nigo team.',
+      form: {
+        email: 'Email',
+        subscribing: 'Subscribing...',
+        subscribe: 'Subscribe',
+        subscribed_messages: {
+          pre: 'An email to confirm your subscription has been sent to',
+          post: '💚'
+        }
+      }
+    }
+  },
+  design: {
+    meta: {
+      title: 'Nigo Design',
+      description:
+        'Download Nigo design resources (SVG, icons, emoji and favicon).'
+    },
+    title: '{nuxt} Design',
+    description:
+      'Nigo is an MIT licensed open source project and completely free to use. {break} You can freely use our logos as long as you mention Nigo and link to nuxtjs.org.',
+    other_download_message:
+      'You can also download our {favicon} or our {sketch} file.'
+  },
+  resources: {
+    meta: {
+      title: 'Nigo Resources',
+      description:
+        'Discover a panel of resources made by our partners. By using thoses affiliate resources links, you are helping us to maintain and develop the Open Source Framework.'
+    },
+    title: '{nuxt} Resources',
+    description:
+      'Discover a panel of resources made by our partners. By using thoses affiliate resources links, you are helping us to maintain and develop the Open Source Framework.',
+    themes: {
+      title: 'Themes'
+    },
+    videos: {
+      title: 'Video Courses'
+    }
+  },
+  shop: {
+    meta: {
+      title: 'The Nigo Shop',
+      description:
+        'You want to support the Nigo project and show your love to the rest of the community? Here our products with the best quality ever!'
+    },
+    title: 'The {nuxt} Shop',
+    description:
+      'You want to support the Nigo project and show your love to the rest of the community?{break} Here our products with the best quality ever!',
+    button: 'Coming soon'
+  },
+  team: {
+    meta: {
+      title: 'Nigo Team',
+      description:
+        'Nigo has a very active and engaged team that is constantly striving to push Nuxt forward.'
+    },
+    title: '{nuxt} Team',
+    description:
+      'Nigo is a powerful Japanese-English dictionary. It lets you find words, kanji, example sentences and more quickly and easily. Our goal is to build a new kind of dictionary that doesn\'t just let you look up single words or kanji, but rather helps you understand any Japanese text. Ultimately we want to see it be a Google Now or Wolfram Alpha for the Japanese language. Just paste what you want to understand into Jisho, be it English, romaji, a single word or an entire paragraph of Japanese text, and it will search a myriad of data to help you understand the words, kanji and even grammar patterns.'
+  },
+  themes: {
+    meta: {
+      title: 'Nigo Themes',
+      description:
+        'With the themes below built by our partners from Creative Tim and Theme Forest you can see how a real world application is built, with Nuxt.js stack behind.'
+    },
+    title: '{nuxt} Themes',
+    description:
+      'With the themes below built by our partners from Creative Tim and Theme Forest you can see how a real world application is built, with Nuxt.js stack behind.',
+    button: 'GET IT for'
+  },
+  'video-courses': {
+    meta: {
+      title: 'Nigo Video Courses',
+      description:
+        'With the video courses below created by our partner VueSchool you can discover and learn more about the Nuxt.js Framework.'
+    },
+    title: '{nuxt} Video Courses',
+    description:
+      'With the video courses below created by our partner VueSchool you can discover and learn more about the Nuxt.js Framework.',
+    cta: {
+      discover: 'Discover vueschool',
+      start: 'START COURSE'
+    }
+  },
+  sponsor: {
+    meta: {
+      title: 'Sponsor Nigo Development',
+      description:
+        'You can support Nigo development via different methods and ensure regular updates to the framework.'
+    },
+    title: 'Sponsor {nuxt} Development',
+    description:
+      'Nigo is an MIT licensed open source project and completely free to use.{break} However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing.{break} You can support Nigo development via the following methods:',
+    donations: {
+      title: 'One-time donations',
+      description: 'We accept donations through these channels'
+    },
+    pledges: {
+      title: 'Recurring Pledges',
+      description:
+        'Recurring pledges come with exclusive perks, e.g. having your name listed in the Nigo GitHub repository, or have your company logo placed on this website. Become a nuxter or sponsor via {opencollective} (goes into a fund with transparent expense models supporting community efforts and events).'
+    },
+    become_a_sponsor: 'Become a sponsor'
+  },
+  support: {
+    meta: {
+      title: 'The Nigo Support',
+      description:
+        'Our Nigo team now offers official consulting services for your Nigo applications.'
+    },
+    title: 'Consulting {nuxt} Support',
+    description:
+      'Our {team} now offers official consulting services for your Nigo applications.{break} We offer different services depending of your needs, from technical support to custom development. Expect a reply within one business day, we can sign custom NDA and you can get a full refund if you are not satisfied with our service.',
+    technical: {
+      title: 'Technical support',
+      description:
+        'Get project audits, app deployments, custom development and technical support from the Nigo team.',
+      start: 'Start chat',
+      partner: {
+        pre: 'We partnered with',
+        post:
+          'to offer these services so we can focus on helping you as fast as possible.'
+      }
+    },
+    entreprise: {
+      title: 'for enterprise',
+      description:
+        'Nigo and the maintainers of thousands of other packages are working with Tidelift to deliver one enterprise subscription that covers all of the open source you use.{break} If you want the flexibility of open source and the confidence of commercial-grade software, this is for you.',
+      partner: {
+        pre: 'Available as part of the',
+        post: 'subscription.'
+      },
+      learn_more: 'Learn more',
+      request_a_demo: 'Request a demo'
+    }
+  },
+  blog: {
+    meta: {
+      title: 'Nigo Blog',
+      description:
+        'Discover articles from the Nigo team and Nigo Community about Nigo, tips and tricks included!'
+    },
+    title: '{nuxt} Blog',
+    description:
+      'Discover articles from the {nuxtTeam} and {nuxtCommunity} about Nigo, tips and tricks included!',
+    nuxt_team: 'Nigo Team',
+    nuxt_community: 'Nuxt.js Community',
+    contribute: 'Caught a mistake or want to contribute to this blog post?'
+  },
+  guide: {
+    release_notes: 'Release Notes',
+    toc_title: 'On this page'
+  },
+  quiz: {
+    title: 'Quiz'
+  },
+  tryNewDocs: {
+    msg1: 'Want to take a look at our new docs? Our ',
+    link: 'new docs',
+    msg2: 'are now in beta. Have fun!'
+  },
+  contribute: {
+    title: 'Contributors',
+    docs: 'Caught a mistake or want to contribute to the documentation?',
+    blog: 'Caught a mistake or want to contribute to this blog post?',
+    edit_on_github: 'Edit this page on GitHub!',
+    msg1:
+      'Contribution for this page is now closed. If you would like to contribute please check out our',
+    link: 'new docs'
+  },
+  codeSandbox: {
+    open: 'Open CodeSandbox'
+  },
+  content: {
+    faq: {
+      configuration: 'SỬ DỤNG'
+    }
+  },
+  footer: {
+    links: {
+      discover: {
+        title: 'Discover',
+        design: 'Design resources',
+        team: 'A worldwide team',
+        blog: 'Blog'
+      },
+      follow: {
+        title: 'Follow'
+      },
+      support: {
+        title: 'Support',
+        sponsorNuxt: 'Sponsor Nigo',
+        shop: 'The Nigo Shop',
+        consulting: 'Nigo Consulting'
+      }
+    }
+  },
+  cookies: {
+    consent: 'We use Cookies for user analysis and on-page improvements!',
+    linkLabel: 'Learn about cookies',
+    button: 'Got it'
+  }
+}
